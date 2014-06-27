@@ -1,0 +1,12 @@
+﻿ERROR CODE REFERENCE
+
+BUILD ERRORS:
+
+1: Occurs when the build environment already exists and can not be deleted.
+2: Occurs when creating the build environment
+
+
+
+API ERRORS:
+
+1: System.IO.IOException
