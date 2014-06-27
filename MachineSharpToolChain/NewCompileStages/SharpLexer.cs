@@ -36,7 +36,7 @@ namespace MachineSharpToolChain.NewCompileStages
                                 //Get the using namespace from qual_name_with_targs
                                 //Create a new declaration object to hold the info
                                 NewProgramShell.UsingDeclaration usingDec = new NewProgramShell.UsingDeclaration();
-
+                                
 
                                 //Add the declaration to the base file
                                 baseReturn.UsingDeclarations.Add(usingDec);
