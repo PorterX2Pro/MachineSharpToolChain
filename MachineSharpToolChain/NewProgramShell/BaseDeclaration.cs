@@ -11,12 +11,12 @@ namespace MachineSharpToolChain.NewProgramShell
         //A list of using statements
         public List<UsingDeclaration> UsingDeclarations;
         //A list of namespace declarations
-        public List<object> NamespaceDeclarations;
+        public List<NamespaceDeclaration> NamespaceDeclarations;
 
         public BaseDeclaration()
         {
             UsingDeclarations = new List<UsingDeclaration>();
-            NamespaceDeclarations = new List<object>();
+            NamespaceDeclarations = new List<NamespaceDeclaration>();
         }
 
         public string ToNativeCode()

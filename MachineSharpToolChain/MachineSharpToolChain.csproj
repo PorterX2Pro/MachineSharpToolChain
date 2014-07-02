@@ -54,7 +54,11 @@
     <Compile Include="NewCompileStages\SharpLexer.cs" />
     <Compile Include="ConsoleHelper.cs" />
     <Compile Include="global.cs" />
+    <Compile Include="NewProgramShell\StatementDeclaration.cs" />
     <Compile Include="NewProgramShell\BaseDeclaration.cs" />
+    <Compile Include="NewProgramShell\ClassDeclaration.cs" />
+    <Compile Include="NewProgramShell\FunctionDeclaration.cs" />
+    <Compile Include="NewProgramShell\NamespaceDelcaration.cs" />
     <Compile Include="NewProgramShell\StandardDeclaration.cs" />
     <Compile Include="NewProgramShell\UsingDeclaration.cs" />
     <Compile Include="Program.cs" />
